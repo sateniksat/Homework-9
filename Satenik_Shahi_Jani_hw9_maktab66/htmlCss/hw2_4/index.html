@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="left-side">
+        <img
+          class="logo"
+          src="./assets/img/sun-with-sea-surface-logo-t.png"
+          alt="img"
+        />
+        <div class="items">
+          <a href="#">Home</a>
+          <a href="#">Age groups</a>
+          <a href="#">Destinations</a>
+          <a href="#">Experiences</a>
+          <a href="#">Info</a>
+          <a href="#">Last link...</a>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="dropdown">
+          <a class="dropbtn" onclick="myFunction()" href="#"
+            >All Searches <i class="arrow down" onclick="myFunction()"></i
+          ></a>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#about">About</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            <a href="#support">Support</a>
+          </div>
+        </div>
+        <a class="login" href="#">Login</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="bar">
+        <a href="#"><h2>Destination</h2></a>
+        <div class="home">
+          <p><a href="#">Home /</a><a href="#">Destination</a></p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="header">
+          <h1>Destination</h1>
+          <p>
+            Stay up to date and check out dealsfor these trending destinations
+          </p>
+        </div>
+        <div class="line1">
+          <div class="card">
+            <img src="./assets/img/Day-of-German-Unity.jpg" alt="img" />
+            <div class="text">Germany</div>
+          </div>
+          <div class="card">
+            <img src="./assets/img/p051y4n8.jpg" alt="img" />
+            <div class="text">Spain</div>
+          </div>
+          <div class="card">
+            <img src="./assets/img/swiss-village-rusm.jpg" alt="img" />
+            <div class="text">Switzerland</div>
+          </div>
+        </div>
+        <div class="line1">
+          <div class="card">
+            <img src="./assets/img/99602.jpg" alt="img" />
+            <div class="text">London</div>
+          </div>
+          <div class="card">
+            <img src="./assets/img/Belgium-2109x1406.jpg" alt="img" />
+            <div class="text">Belgium</div>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/img/SouthBeachMiami-2020-GettyImages-1137673992.jpg"
+              alt="img"
+            />
+            <div class="text">USA</div>
+          </div>
+        </div>
+        <div><button>View more</button></div>
+      </div>
+    </div>
+    <footer class="blue">
+      <div class="media1">
+        <h2>Subscribe to our free newsletter</h2>
+        <form>
+          <input type="text" id="Name" name="Name" placeholder="Name" />
+          <input type="email" id="email" name="Email" placeholder="Email" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <div class="info">
+        <div class="text-logo">
+          <img src="./assets/img/sun-with-sea-surface-logo-t.png" alt="img" />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text.
+          </p>
+        </div>
+        <div class="question">
+          <ol class="decimal">
+            <a href="#"> <b>booked...now what?</b></a>
+            <a href="#"
+              ><li>
+                1.It is a long established fact that a reader will be distracted
+              </li></a
+            >
+            <a href="#"><li>2.It established will be distracted</li></a>
+            <a href="#"><li>3.It fact distracted</li></a>
+            <a href="#"
+              ><li>4.It is a long established fact a reader will be</li></a
+            >
+            <a href="#"><li>5.It is a established fact that</li></a>
+            <a href="#"><li>6.It is a long established distracted</li></a>
+            <a href="#"><li>7.Itfact that a reader will be distracted</li></a>
+          </ol>
+        </div>
+        <div class="media">
+          <div>
+            <a href="#"><b>Community</b></a>
+          </div>
+          <div><a href="#">Twitter</a></div>
+          <div><a href="#">Facebook</a></div>
+          <div><a href="#">Instagram</a></div>
+          <div><a href="#">Google+</a></div>
+          <div><a href="#">test</a></div>
+          <div><a href="#">testing time</a></div>
+          <div><a href="#">Email</a></div>
+          <div><a href="#">Lorem</a></div>
+        </div>
+        <div class="media">
+          <div>
+            <a href="#"><b>useful-link</b></a>
+          </div>
+          <div><a href="#">LOrem</a></div>
+          <div><a href="#">LOrem</a></div>
+          <div><a href="#">LOrem</a></div>
+          <div><a href="#">LOrem</a></div>
+          <div><a href="#">LOrem</a></div>
+        </div>
+      </div>
+      <div class="end">
+        <p>
+          Group of young people publishing software/// like including versions
+          of
+        </p>
+      </div>
+    </footer>
+    <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (e) {
+        if (!e.target.matches(".dropbtn")) {
+          var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains("show")) {
+            myDropdown.classList.remove("show");
+          }
+        }
+      };
+    </script>
+  </body>
+</html>
