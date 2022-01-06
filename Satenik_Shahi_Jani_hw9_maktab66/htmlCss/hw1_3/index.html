@@ -1,300 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand text-secondary fw-bolder h1" href="#">Bootcamp66</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse  mr-auto mt-2 mt-lg-0" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item  ">
-                <a class="nav-link" aria-current="page" href="#">HTML Resoume temlate</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/img/900x450.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption text-start d-none d-md-block">
-              <div class="h1 fw-bolder" >HELLO</div>
-              <div class="h3">I am Mary and <span class="text-warning">Dreamer</span></div>
-              <p>SPECIALIZWD IN DESIGN AND PHOTIGRAPHY</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/img/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NvbXB1dGVyLWtleWJvYXJkLTIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoiMTIwMCJ9fX0=.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption  text-start d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/img/30716-ts.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption text-left">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+      <div class="container-fluid">
+        <a class="navbar-brand text-secondary fw-bolder h1" href="#"
+          >Bootcamp66</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div
+          class="collapse navbar-collapse mr-auto mt-2 mt-lg-0"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >HTML Resoume temlate</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown link
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown link
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown link
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-
-
-
-      <div class="row container-fluid justify-content-center text-center mt-5">
-        <div class="h2 mb-1 position-relative text-secondary">I'M SPECIALIZED IN</div>
-        <i class="bi bi-dash-lg text-dark display-3  position-absolute "></i>
-        <div class="mt-3 text-secondary">Committed and energetic professional photographer with 7+ years extensive experience in custom-made and specialized photography</div>
+    </nav>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/900x450.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption text-start d-none d-md-block">
+            <div class="h1 fw-bolder">HELLO</div>
+            <div class="h3">
+              I am Mary and <span class="text-warning">Dreamer</span>
+            </div>
+            <p>SPECIALIZWD IN DESIGN AND PHOTIGRAPHY</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NvbXB1dGVyLWtleWJvYXJkLTIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoiMTIwMCJ9fX0=.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption text-start d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/30716-ts.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption text-left">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
+    <div class="row container-fluid justify-content-center text-center mt-5">
+      <div class="h2 mb-1 position-relative text-secondary">
+        I'M SPECIALIZED IN
+      </div>
+      <i class="bi bi-dash-lg text-dark display-3 position-absolute"></i>
+      <div class="mt-3 text-secondary">
+        Committed and energetic professional photographer with 7+ years
+        extensive experience in custom-made and specialized photography
+      </div>
+    </div>
 
-
-
-      <div class="d-flex flex-column flex-wrap justify-content-center flex-md-row align-items-center mt-5">
-      <div class="card border-0" style="width: 18rem;">
+    <div
+      class="d-flex flex-column flex-wrap justify-content-center flex-md-row align-items-center mt-5"
+    >
+      <div class="card border-0" style="width: 18rem">
         <i class="px-3 bi bi-file-text display-6 text-secondary"></i>
         <div class="card-body">
           <h5 class="card-title">CONCEPTIONG</h5>
-          <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text text-secondary">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
         </div>
       </div>
-      <div class="card border-0" style="width: 18rem;">
-        <i class="px-3 bi bi-newspaper display-6 text-secondary" ></i>
+      <div class="card border-0" style="width: 18rem">
+        <i class="px-3 bi bi-newspaper display-6 text-secondary"></i>
         <div class="card-body">
           <h5 class="card-title">UI/UX</h5>
-          <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text text-secondary">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
         </div>
       </div>
-      <div class="card border-0" style="width: 18rem;">
+      <div class="card border-0" style="width: 18rem">
         <i class="px-3 bi bi-image display-6 text-secondary"></i>
         <div class="card-body">
           <h5 class="card-title">VISUAL DESIGN</h5>
-          <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text text-secondary">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
         </div>
       </div>
-      <div class="card border-0" style="width: 18rem;">
+      <div class="card border-0" style="width: 18rem">
         <i class="px-3 bi bi-hand-thumbs-up display-6 text-secondary"></i>
         <div class="card-body">
           <h5 class="card-title">INTERACTION</h5>
-          <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text text-secondary">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
         </div>
       </div>
     </div>
     <div class="container-fluid mt-5">
-
       <div class="row justify-content-center text-center">
-        <div class="col-lg-3 col-md-6 col-12 item-even" style="background-color: #ced4da;">
-          <i class="bi bi-person-circle " style="font-size: 2rem;"></i>
-            <div class="h5 p-3">Clients</div>
-            <div class="h2 p-3">37</div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 bg-light"  >
-          <i class="bi bi-clock-history" style="font-size: 2rem;"></i>
-            <div class="h5 p-3">aworde winner</div>
-            <div class="h2 p-3">13</div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 item-even"  style="background-color: #ced4da;">
-          <i class="bi bi-clock-history" style="font-size: 2rem;"></i>
-            <div class="h5 p-3">Hours Worked</div>
-            <div class="h2 p-3">900</div> 
+        <div
+          class="col-lg-3 col-md-6 col-12 item-even"
+          style="background-color: #ced4da"
+        >
+          <i class="bi bi-person-circle" style="font-size: 2rem"></i>
+          <div class="h5 p-3">Clients</div>
+          <div class="h2 p-3">37</div>
         </div>
         <div class="col-lg-3 col-md-6 col-12 bg-light">
-          <i class="bi bi-magic" style="font-size: 2rem;"></i>
-            <div class="h5 p-3">Project Completed</div>
-            <div class="h2 p-3">40</div>
+          <i class="bi bi-clock-history" style="font-size: 2rem"></i>
+          <div class="h5 p-3">aworde winner</div>
+          <div class="h2 p-3">13</div>
         </div>
-    </div>
-    </div>
-
-
-
-
-
-    <div class="row container-fluid justify-content-center text-center mt-5">
-      <div class="h2 mb-1 position-relative text-secondary">MY WORKING PROCESS</div>
-     <i class="bi bi-dash-lg text-dark display-3  position-absolute "></i>
-      <div class="mt-3 text-secondary">Conversant with different sorts of digital photography including style, wildlife and undersea due to HTML Website Template</div>
-  </div>
-  <div class="container-fluid mt-5">
-    <div class="d-flex flex-column flex-wrap justify-content-center flex-md-row align-items-center my-3 ">
-        <div class="w-25 p-3 col-lg-3 col-md-6 col-12">
-            <div class=" position-relative">
-
-                <div class="rounded-circle position-absolute top-0 end-0 bg-warning text-center p-2 px-3">1</div>
-            </div>
-            <h5>DISCUSS THE PROJECT</h5>
-            <p class="p-contentthree">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem  industry's standard dummy t 1500s. <span>Learn more</span></p>
+        <div
+          class="col-lg-3 col-md-6 col-12 item-even"
+          style="background-color: #ced4da"
+        >
+          <i class="bi bi-clock-history" style="font-size: 2rem"></i>
+          <div class="h5 p-3">Hours Worked</div>
+          <div class="h2 p-3">900</div>
         </div>
-        <!-- <i class="bi bi-arrow-right"></i> -->
-        <div class="w-25 p-3 col-lg-3 col-md-6 col-12 ">
-            <div class=" position-relative">
-
-                <div class="rounded-circle position-absolute top-0 end-0 bg-warning  text-center p-2 px-3">2</div>
-            </div>
-            <h5>LOT OF CONCEPTING</h5>
-            <p class="p-contentthree">Lorem Ipsum is simply printing and typesetting industry. Lorem  industry's standard dummy t 1500s. <span>Learn more</span></p>
+        <div class="col-lg-3 col-md-6 col-12 bg-light">
+          <i class="bi bi-magic" style="font-size: 2rem"></i>
+          <div class="h5 p-3">Project Completed</div>
+          <div class="h2 p-3">40</div>
         </div>
-        <!-- <i class="bi bi-arrow-right"></i> -->
-        <div class="w-25 p-3 col-lg-3 col-md-6 col-12">
-            <div class="rounded-circle bg-secondery position-relative">
-              <i class="bi bi-lightbulb" style="font-size: 2rem; color: white;"></i>
-      
-                <div class="rounded-circle position-absolute top-0 end-0 bg-warning  text-center p-2 px-3">3</div>
-            </div> 
-            <h5>UX/UI PLANNING</h5>
-            <p class="p-contentthree">Lorem Ipsum is simply printing and typesetting industry. Lorem  industry's standard dummy t 1500s. <span>Learn more</span></p>
-        </div>
-        <!-- <i class="bi bi-arrow-right"></i> -->
-        <div class="w-25 p-3 col-lg-3 col-md-6 col-12">
-            <div class=" position-relative">
-                
-                <div class="rounded-circle position-absolute top-0 end-0 bg-warning  text-center p-2 px-3">4</div>
-            </div> 
-            <h5>DESIGN</h5>
-            <p class="p-contentthree">Lorem Ipsum is simply printing and typesetting industry. Lorem  industry's standard dummy t 1500s. <span>Learn more</span></p>
-        </div>
-    </div>
-</div>
-<div
-class="container-fluid d-flex flex-row mt-5"
-style="background-color: silver"
->
-<div class=" d-flex flex-row">
-  <div class="col-lg-6 col-sm-12 order-sm-2 order-lg-1">
-    <div class="text mt-4" >
-      <div class="h2">ABOUT ME</div>
-      <div class="h4">I AM A PHOTOGRAPHER & DESIGNER</div>
-      <p class="text-secondary">
-        Dedicated and energised professional photographer woth +7 years
-        conprehensive exprience in customized and also specialized
-        photography.Exprienced in catching premium quality images and
-        arranging products for photoshoots whole displaying
-        self-confidence and professionalism and trustin ant way
-        times.Proficient with different kind of photography including
-        style,wildlife and undersea due to HTML Personal Website
-        Template.Extensive knowledge of working with innovative digital
-        photograohy tools.
-      </p>
-      <p>
-        <i class="bi bi-check-lg text-warning"  style="font-size: 1.5rem;"></i>
-        specialized in high-speed photography for motorsports from
-        regional to nationwide
-      </p>
-      <p>
-        <i class="bi bi-check-lg text-warning"  style="font-size: 1.5rem;"></i>
-        provided a full variety of imaging requiers from commercial,also
-        graphic arts.
-      </p>
-      <p>
-        <i class="bi bi-check-lg text-warning"  style="font-size: 1.5rem;"></i>
-        Designed as well as provided proposals to broad specturm customers
-      </p>
-      <p>
-        <i class="bi bi-check-lg text-warning"  style="font-size: 1.5rem;"></i>
-        Oversaw all aspects of workshop work as HTML Personal Page
-        Template developer
-      </p>
-      <div class="icon">
-        <i class="bi bi-facebook text-dark"  style="font-size: 2.5rem;"></i>
-        <i class="bi bi-twitter text-dark"  style="font-size: 2.5rem;"></i>
-        <i class="bi bi-linkedin text-dark"  style="font-size: 2.5rem;"></i>
-        <i class="bi bi-youtube text-dark"  style="font-size: 2.5rem;"></i>
-        <i class="bi bi-spotify text-dark"  style="font-size: 2.5rem;"></i>
       </div>
     </div>
-  </div>
-  <div class="col-lg-6 col-sm-12 order-sm-1 order-lg-2">
-    <img
-      class="w-75  "
-      src="./assets/img/noemi-macavei-katocz-zrk7WirlxgM-unsplash.jpg"
-      alt="img"
-    />
-  </div>
-</div>
-</div>
 
-<footer class="container-fluid d-flex flex-row p-5 bg-dark ">
-  <div class="col-lg-6 col-sm-12">
-    <p class="text-muted" style="margin-left: 3px;">
-      Personal Website HTML Template Powered by
-      <a
-        class="text-warning"
-        href="https://maktabsharif.ir/"
-        target="blank"
-        >Maktab-sharif</a
+    <div class="row container-fluid justify-content-center text-center mt-5">
+      <div class="h2 mb-1 position-relative text-secondary">
+        MY WORKING PROCESS
+      </div>
+      <i class="bi bi-dash-lg text-dark display-3 position-absolute"></i>
+      <div class="mt-3 text-secondary">
+        Conversant with different sorts of digital photography including style,
+        wildlife and undersea due to HTML Website Template
+      </div>
+    </div>
+    <div class="container-fluid mt-5">
+      <div
+        class="d-flex flex-column flex-wrap justify-content-center flex-md-row align-items-center my-3"
       >
-    </p>
-  </div>
-  <div class=" ml-auto"  >
-  <a href="#"><i class="bi bi-facebook text-light"  style="font-size: 2.5rem;"></i></a>
-  <a href="#"><i class="bi bi-twitter text-light"  style="font-size: 2.5rem;"></i></a>
-  <a href="#"><i class="bi bi-google text-light"  style="font-size: 2.5rem;"></i></a>
-  <a href="#"><i class="bi bi-instagram text-light"  style="font-size: 2.5rem;"></i></a>
-  </div>
+        <div class="w-25 p-3 col-lg-3 col-md-6 col-12">
+          <div class="position-relative">
+            <div
+              class="rounded-circle position-absolute top-0 end-0 bg-warning text-center p-2 px-3"
+            >
+              1
+            </div>
+          </div>
+          <h5>DISCUSS THE PROJECT</h5>
+          <p class="p-contentthree">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem industry's standard dummy t 1500s.
+            <span>Learn more</span>
+          </p>
+        </div>
+        <!-- <i class="bi bi-arrow-right"></i> -->
+        <div class="w-25 p-3 col-lg-3 col-md-6 col-12">
+          <div class="position-relative">
+            <div
+              class="rounded-circle position-absolute top-0 end-0 bg-warning text-center p-2 px-3"
+            >
+              2
+            </div>
+          </div>
+          <h5>LOT OF CONCEPTING</h5>
+          <p class="p-contentthree">
+            Lorem Ipsum is simply printing and typesetting industry. Lorem
+            industry's standard dummy t 1500s. <span>Learn more</span>
+          </p>
+        </div>
+        <!-- <i class="bi bi-arrow-right"></i> -->
+        <div class="w-25 p-3 col-lg-3 col-md-6 col-12">
+          <div class="rounded-circle bg-secondery position-relative">
+            <i
+              class="bi bi-lightbulb"
+              style="font-size: 2rem; color: white"
+            ></i>
 
-</footer>
+            <div
+              class="rounded-circle position-absolute top-0 end-0 bg-warning text-center p-2 px-3"
+            >
+              3
+            </div>
+          </div>
+          <h5>UX/UI PLANNING</h5>
+          <p class="p-contentthree">
+            Lorem Ipsum is simply printing and typesetting industry. Lorem
+            industry's standard dummy t 1500s. <span>Learn more</span>
+          </p>
+        </div>
+        <!-- <i class="bi bi-arrow-right"></i> -->
+        <div class="w-25 p-3 col-lg-3 col-md-6 col-12">
+          <div class="position-relative">
+            <div
+              class="rounded-circle position-absolute top-0 end-0 bg-warning text-center p-2 px-3"
+            >
+              4
+            </div>
+          </div>
+          <h5>DESIGN</h5>
+          <p class="p-contentthree">
+            Lorem Ipsum is simply printing and typesetting industry. Lorem
+            industry's standard dummy t 1500s. <span>Learn more</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container-fluid d-flex flex-row mt-5"
+      style="background-color: silver"
+    >
+      <div class="d-flex flex-row">
+        <div class="col-lg-6 col-sm-12 order-sm-2 order-lg-1">
+          <div class="text mt-4">
+            <div class="h2">ABOUT ME</div>
+            <div class="h4">I AM A PHOTOGRAPHER & DESIGNER</div>
+            <p class="text-secondary">
+              Dedicated and energised professional photographer woth +7 years
+              conprehensive exprience in customized and also specialized
+              photography.Exprienced in catching premium quality images and
+              arranging products for photoshoots whole displaying
+              self-confidence and professionalism and trustin ant way
+              times.Proficient with different kind of photography including
+              style,wildlife and undersea due to HTML Personal Website
+              Template.Extensive knowledge of working with innovative digital
+              photograohy tools.
+            </p>
+            <p>
+              <i
+                class="bi bi-check-lg text-warning"
+                style="font-size: 1.5rem"
+              ></i>
+              specialized in high-speed photography for motorsports from
+              regional to nationwide
+            </p>
+            <p>
+              <i
+                class="bi bi-check-lg text-warning"
+                style="font-size: 1.5rem"
+              ></i>
+              provided a full variety of imaging requiers from commercial,also
+              graphic arts.
+            </p>
+            <p>
+              <i
+                class="bi bi-check-lg text-warning"
+                style="font-size: 1.5rem"
+              ></i>
+              Designed as well as provided proposals to broad specturm customers
+            </p>
+            <p>
+              <i
+                class="bi bi-check-lg text-warning"
+                style="font-size: 1.5rem"
+              ></i>
+              Oversaw all aspects of workshop work as HTML Personal Page
+              Template developer
+            </p>
+            <div class="icon">
+              <i class="bi bi-facebook text-dark" style="font-size: 2.5rem"></i>
+              <i class="bi bi-twitter text-dark" style="font-size: 2.5rem"></i>
+              <i class="bi bi-linkedin text-dark" style="font-size: 2.5rem"></i>
+              <i class="bi bi-youtube text-dark" style="font-size: 2.5rem"></i>
+              <i class="bi bi-spotify text-dark" style="font-size: 2.5rem"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 order-sm-1 order-lg-2">
+          <img
+            class="w-75"
+            src="./assets/img/noemi-macavei-katocz-zrk7WirlxgM-unsplash.jpg"
+            alt="img"
+          />
+        </div>
+      </div>
+    </div>
 
+    <footer class="container-fluid d-flex flex-row p-5 bg-dark">
+      <div class="col-lg-6 col-sm-12">
+        <p class="text-muted ml-3" >
+          Personal Website HTML Template Powered by
+          <a class="text-warning" href="https://maktabsharif.ir/" target="blank"
+            >Maktab-sharif</a
+          >
+        </p>
+      </div>
+      <div class="ml-auto">
+        <a href="#"
+          ><i class="bi bi-facebook text-light" style="font-size: 2.5rem"></i
+        ></a>
+        <a href="#"
+          ><i class="bi bi-twitter text-light" style="font-size: 2.5rem"></i
+        ></a>
+        <a href="#"
+          ><i class="bi bi-google text-light" style="font-size: 2.5rem"></i
+        ></a>
+        <a href="#"
+          ><i class="bi bi-instagram text-light" style="font-size: 2.5rem"></i
+        ></a>
+      </div>
+    </footer>
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-      </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
