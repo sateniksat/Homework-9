@@ -11,6 +11,8 @@ nav {
   position: sticky;
   top: 0;
   float: left;
+  /* clear: left;
+  overflow: auto; */
 }
 .left-side {
   width: 82%;
@@ -271,4 +273,15 @@ ol.decimal {
   font-size: larger;
   padding: 0% 29%;
   color: white;
+}
+@media (max-width: 992px) {
+.card{
+  width: 30%;
+  height: 50%;
+}
+
+}
+@media (max-width: 768px) {
+
+
 }
