@@ -12,3 +12,11 @@
 .white a {
   color: #fff;
 }
+.grayround {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(46, 42, 42);
+}
+a {
+  text-decoration: none;
+}
